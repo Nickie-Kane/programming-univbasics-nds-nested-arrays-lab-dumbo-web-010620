@@ -34,8 +34,8 @@ def matrix_lookup(matrix, row, column)
     matrix << matrix[0].sort { |a,b| a.length <=> b.length }
     matrix << matrix[1].sort { |a,b| a.length <=> b.length }
     p matrix
-    p matrix[row, column]
-    return matrix[row, column]
+    p matrix[row][column]
+    return matrix[row][column]
   
 end
 
